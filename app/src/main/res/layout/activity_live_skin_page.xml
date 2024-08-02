@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skinbackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LiveSkinPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#20262E"
+        android:gravity="center|start"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="35dp"
+            app:srcCompat="@drawable/rhodesisland" />
+
+        <Button
+            android:id="@+id/BackButtonToMenu"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:background="#00FFFFFF"
+            android:gravity="center|start"
+            android:shadowColor="#FFFFFF"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/info" />
+
+        <TextView
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Live 2D Skin"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Live 2D Skin Release Date"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <View
+
+        android:id="@+id/view34"
+        android:layout_width="290dp"
+        android:layout_height="5dp"
+        android:background="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="396dp"
+            android:layout_height="623dp"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2024/02"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/shuoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Shu"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/linheavenlymirage" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Heavenly Mirage"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/chongyuealighting" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Alighting"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2024/01"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/reedcurator" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Curator"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2023/11"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/virtousaoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Vertousa"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/mylnarwdali" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="W Dali"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/texasomertousawingbreaker" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Wingbreaker"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2023/08"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/lingtowering" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Towering is Cliff of Nostalgia"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:id="@+id/view25"
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/datetext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2023/07"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:id="@+id/view26"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:id="@+id/view27"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/gavialtheinvinciblesummer" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Gavial The Invincible Holiday"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/eyjafjallathehvit" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Eyjafjallaa The Hvit Aska"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/goldenglowsummer" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Summer Flower FA394"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2023/04"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/kaltsitremnant" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Remnant"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/muelsyseoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Muelsyse"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/specterbornasone" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Born As One"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/chenhoulungdaytenthousan" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Ten Thousand Moutain"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2023/02"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/pozemkasnowy" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Snowy Plains In Words"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:id="@+id/view25"
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/datetext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2023/01"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:id="@+id/view26"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:id="@+id/view27"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/chongyueoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Chongyue"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/lingitdoeswash" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="It Does Wash The String"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2022/12"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/mizukisummerfeast" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Summer Feast"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2022/11"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/texastheomertousa" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Texas The Omertosa"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/passengerdream" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Dream In The Moment"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/nearlrelight" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Relight"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/rosmontisbecomeanew" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Become Anew"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2022/10"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/leetrustyoureyes" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Summer Feast"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:id="@+id/view25"
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/datetext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2022/08"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:id="@+id/view26"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:id="@+id/view27"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/gavialtheinvincibleoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Gavial The Invincible"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/surtycolorful" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Conlorful Wonderland"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:id="@+id/view25"
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/datetext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2023/07"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:id="@+id/view26"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:id="@+id/view27"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/spectertheunchainedoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Specter The Unchained"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/skadisublimation" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Sublimation"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2021/11"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/nearltheradiantknight" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Nearl The Radiant Knight"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2021/08"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/chentheholungdayoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Ch'en The Holungday"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2021/05"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/skadithecoruptingheart" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Skadi The Corupting Heart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:id="@+id/view25"
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/datetext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2021/02"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:id="@+id/view26"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:id="@+id/view27"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/duskoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Dusk"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/nianunfettered" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Unfettered Freedom"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:id="@+id/view25"
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/datetext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2020/11"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:id="@+id/view26"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:id="@+id/view27"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/rosmontisoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Rosmontis"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/wwwonder" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Wonder"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2020/05"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/wworiginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="W"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/Datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="2020/01"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FFFFFF" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView112"
+                        android:layout_width="90dp"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/nianoriginal" />
+
+                    <TextView
+                        android:id="@+id/Datetext2"
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:paddingStart="5dp"
+                        android:text="Nian"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
